@@ -11641,7 +11641,6 @@ input[type="checkbox"]:disabled {
 }
 
 .header {
-  background-color: blue;
   margin-bottom: 1em;
   padding-bottom: 0;
 }
@@ -12787,7 +12786,7 @@ input[type="checkbox"]:disabled {
   background: #333333;
   color: #ffffff;
   text-align: center;
-  background-color: orange;
+  background-color: pink;
 }
 
 .global-header__ribbon p {
