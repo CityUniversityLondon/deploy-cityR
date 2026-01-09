@@ -1,0 +1,70 @@
+/**
+ * reusable code:
+
+@include breakup-breakpoint('thin') {               // 320px
+}
+@include breakup-breakpoint('thinish') {            // 480px
+}
+@include breakup-breakpoint('thinish_extended') {   // 500px
+}
+@include breakup-breakpoint('thinish_extended_2') { // 600px
+}
+@include breakup-breakpoint('medium') {             // 768px
+}
+@include breakup-breakpoint('wide') {               // 980px
+}
+@include breakup-breakpoint('wide_extended') {      // 1035px
+}
+@include breakup-breakpoint('wider') {              // 1200px
+}
+
+*/
+
+.jvectormap-label {
+  position: absolute;
+  display: none;
+  border: solid 1px #CDCDCD;
+  -moz-border-radius: 3px;
+  background: #292929;
+  color: white;
+  font-family: sans-serif, Verdana;
+  font-size: smaller;
+  padding: 3px;
+}
+
+.jvectormap-zoomin,
+.jvectormap-zoomout {
+  position: absolute;
+  -moz-border-radius: 3px;
+  background: #292929;
+  padding: 3px;
+  color: white;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  line-height: 10px;
+  text-align: center;
+}
+
+.jvectormap-zoomin {
+  left: 10px;
+  top: 10px;
+}
+
+.jvectormap-zoomout {
+  left: 10px;
+  top: 30px;
+}
+
+/* non plugin styles for the map */
+
+#map {
+  margin-bottom: 20px;
+  min-height: 200px;
+}
+
+@media only screen and (min-width: 600px) {
+  #map {
+    min-height: 400px;
+  }
+}
