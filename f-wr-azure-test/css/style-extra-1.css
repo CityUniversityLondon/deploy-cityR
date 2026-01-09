@@ -13005,7 +13005,7 @@ input[type="checkbox"]:disabled {
   background: #333333;
   color: #ffffff;
   text-align: center;
-  background-color: greenyellow;
+  background-color: turquoise;
 }
 
 .global-header__ribbon p {
