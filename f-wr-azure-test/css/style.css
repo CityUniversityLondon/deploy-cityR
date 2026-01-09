@@ -8147,6 +8147,7 @@ input[type="checkbox"]:disabled {
 
 @media only screen and (min-width: 980px) {
   .header {
+    background-color: blue;
     margin-bottom: 1em;
     padding-bottom: 0; }
   .header__util {
@@ -9025,7 +9026,8 @@ input[type="checkbox"]:disabled {
   padding: 0.5rem 0;
   background: #333333;
   color: #ffffff;
-  text-align: center; }
+  text-align: center;
+  background-color: orange; }
   .global-header__ribbon p {
     margin: 0.75rem 0;
     font-size: 1.75rem; }
