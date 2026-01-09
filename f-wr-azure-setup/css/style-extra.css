@@ -1,0 +1,223 @@
+.conference-listing .conference-listing__anchor {
+  background-color: #f2f2f2;
+  border-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading {
+  color: #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:focus .conference-listing__heading span {
+  border-bottom: 2px solid #b02a1a;
+}
+
+.conference-listing .conference-listing__anchor:focus,
+.conference-listing .conference-listing__anchor:active {
+  outline: 2px dotted #444444;
+  outline-offset: 3px;
+}
+
+.conference-listing .conference-listing__anchor:active {
+  outline-offset: 0;
+}
+
+.conference-listing .conference-listing__anchor:hover .conference-listing__heading,
+.conference-listing .conference-listing__anchor:active .conference-listing__heading {
+  color: #ef383f;
+}
+
+.conference-listing .conference-listing__anchor:hover .conference-listing__heading span,
+.conference-listing .conference-listing__anchor:active .conference-listing__heading span {
+  border-bottom: 2px solid #ef383f;
+}
+
+.conference-listing .conference-listing__anchor .conference-listing__date,
+.conference-listing .conference-listing__anchor .conference-listing__description {
+  color: #444444;
+}
+
+.conference-listing .conference-listing__image {
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+}
+
+.conference-listing .conference-listing__image img {
+  height: auto;
+  width: auto;
+}
+
+.conference-listing .conference-listing__details {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.conference-listing .conference-listing__image + .conference-listing__details {
+  -ms-flex-preferred-size: 75%;
+  flex-basis: 75%;
+  margin-left: 1em;
+}
+
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    clear: both;
+  }
+
+  p {
+    clear: left;
+  }
+
+  h2,
+  h3,
+  table,
+  figure,
+  img {
+    page-break-after: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  img {
+    max-width: 100% !important;
+  }
+
+  img.left {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  img.right {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  #header a,
+  #header
+    a:visited {
+    text-decoration: none;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  .hidden,
+  #global-nav,
+  #search,
+  #login-opener,
+  #login_form_login_prompt,
+  #site-home,
+  #primary-nav,
+  #primary-breadcrumb,
+  #breadcrumb,
+  #secondary-nav,
+  #sidebar,
+  #footer,
+  #courses-form,
+  #news-form,
+  #events-form,
+  #filter,
+  .ui-tabs-nav,
+  .date,
+  .sign-up,
+  #promo-wrapper,
+  .noprint,
+  #cross-domain,
+  #mast-1,
+  #util-nav,
+  #primary-nav-toggler,
+  #slice-navigation,
+  #global-nav-toggler,
+  #intranet .footer {
+    display: none;
+  }
+
+  #header #logo a,
+  #header #logo a span,
+  #header #global-nav-1 {
+    display: none !important;
+  }
+
+  .ui-accordion-content {
+    display: block !important;
+  }
+
+  #intranet h1 {
+    font-size: 2.1em;
+  }
+
+  #intranet .footer2016,
+  #intranet .primary-menu-wrapper,
+  #intranet .header__search__toggle,
+  #intranet .global-nav__wrapper {
+    display: none !important;
+  }
+}
+
+iframe[src*='prezi'],
+iframe[src*='issuu'] {
+  display: none !important;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink,
+#CybotCookiebotDialogDetail a {
+  border-bottom: none;
+  -webkit-transition: none;
+  transition: none;
+}
+
+#CybotCookiebotDialog .CybotCookiebotDialogBodyLink:focus,
+#CybotCookiebotDialogDetail a:focus {
+  background-color: unset;
+}

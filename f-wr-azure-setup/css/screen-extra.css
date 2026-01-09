@@ -1,0 +1,94 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.cf:after {
+  clear: both;
+  content: " ";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+.bullets-inside {
+  list-style-position: inside;
+}
+
+.image-right {
+  float: right;
+  margin: 0 10px 10px 10px;
+}
+
+.bold,
+b {
+  font-weight: bold;
+}
+
+i {
+  font-style: italic;
+}
+
+/*FOUC me*/
+
+.js #promo-area #slide-1 {
+  display: none;
+}
+
+.js #promo-area #slide-2 {
+  display: none;
+}
+
+.js #promo-area #slide-3 {
+  display: none;
+}
+
+.js #promo-area #slide-4 {
+  display: none;
+}
+
+.js #promo-area #slide-5 {
+  display: none;
+}
+
+.js #promo-area #slide-6 {
+  display: none;
+}
+
+.js #promo-area #slide-7 {
+  display: none;
+}
+
+.js #promo-area #slide-8 {
+  display: none;
+}
+
+.js #promo-area #slide-9 {
+  display: none;
+}
+
+.js #promo-area #slide-10 {
+  display: none;
+}
+
+.js #promo-area #slide-1 {
+  display: block;
+}
