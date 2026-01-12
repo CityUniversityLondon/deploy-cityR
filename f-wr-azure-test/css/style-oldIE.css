@@ -8109,6 +8109,7 @@ input[type="checkbox"]:disabled {
   display: block; }
 
 .header__logo-nav-wrapper {
+  background: orange;
   border-bottom: 1px solid #eee;
   position: relative; }
 
@@ -25607,6 +25608,7 @@ a.course__red-links__link.course__red-links__link--apply {
       margin-bottom: 0px; } }
 
 .city-research .header {
+  background-color: yellow;
   border-top: 4em solid #00444d; }
 
 .city-research .header__util {

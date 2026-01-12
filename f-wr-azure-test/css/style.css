@@ -8152,6 +8152,7 @@ input[type="checkbox"]:disabled {
   .header__util {
     display: block; }
   .header__logo-nav-wrapper {
+    background: orange;
     border-bottom: 1px solid #eee;
     position: relative; } }
 
@@ -26161,9 +26162,11 @@ a.course__red-links__link.course__red-links__link--apply {
       margin-right: 0px;
       margin-bottom: 0px; } }
 
-@media only screen and (min-width: 980px) {
-  .city-research .header {
-    border-top: 4em solid #00444d; } }
+.city-research .header {
+  background-color: yellow; }
+  @media only screen and (min-width: 980px) {
+    .city-research .header {
+      border-top: 4em solid #00444d; } }
 
 .city-research .header__util {
   background-color: #00444d; }

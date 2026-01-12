@@ -6743,6 +6743,10 @@ a.course__red-links__link.course__red-links__link--apply .course__red-links__lin
   }
 }
 
+.city-research .header {
+  background-color: yellow;
+}
+
 @media only screen and (min-width: 980px) {
   .city-research .header {
     border-top: 4em solid #00444d;
@@ -15774,8 +15778,4 @@ fieldset .col-xs-24 {
   list-style: none;
   margin-left: 0;
   margin-bottom: 1em;
-}
-
-.conference-listing .conference-listing__card:last-of-type {
-  margin-bottom: 0;
 }

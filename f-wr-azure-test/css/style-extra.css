@@ -1,3 +1,7 @@
+.conference-listing .conference-listing__card:last-of-type {
+  margin-bottom: 0;
+}
+
 .conference-listing .conference-listing__anchor {
   background-color: #f2f2f2;
   border-bottom: 0;
