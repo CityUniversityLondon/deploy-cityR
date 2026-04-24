@@ -6610,7 +6610,8 @@ div#CybotCookiebotDialogPoweredByText {
         font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
         display: block;
         padding: 10px;
-        background: #f5f5f5; }
+        background: #f5f5f5;
+        background-color: lime; }
         .js .responsive-tabs > ul li a:hover {
           background: #a22833;
           color: white; }
@@ -6643,7 +6644,8 @@ div#CybotCookiebotDialogPoweredByText {
         font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
         display: block;
         padding: 10px;
-        background: #f5f5f5; }
+        background: #f5f5f5;
+        background-color: lime; }
         .js .responsive-tabs .tab-panel .accordion-toogle a:hover {
           background: #a22833;
           color: white; }

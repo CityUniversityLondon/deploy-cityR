@@ -10162,6 +10162,7 @@ div#CybotCookiebotDialogPoweredByText {
   display: block;
   padding: 10px;
   background: #f5f5f5;
+  background-color: lime;
 }
 
 .js .responsive-tabs > ul li a:hover {
@@ -10215,6 +10216,7 @@ div#CybotCookiebotDialogPoweredByText {
   display: block;
   padding: 10px;
   background: #f5f5f5;
+  background-color: lime;
 }
 
 .js .responsive-tabs .tab-panel .accordion-toogle a:hover {
