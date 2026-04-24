@@ -9938,8 +9938,7 @@ body {
         font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
         display: block;
         padding: 10px;
-        background: #f5f5f5;
-        background-color: lime; }
+        background: #f5f5f5; }
         .js .responsive-tabs > ul li a:hover {
           background: #a22833;
           color: white; }
@@ -9972,8 +9971,7 @@ body {
         font-family: "ff-meta-web", Arial, Helvetica, sans-serif;
         display: block;
         padding: 10px;
-        background: #f5f5f5;
-        background-color: lime; }
+        background: #f5f5f5; }
         .js .responsive-tabs .tab-panel .accordion-toogle a:hover {
           background: #a22833;
           color: white; }
