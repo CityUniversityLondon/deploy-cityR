@@ -31608,7 +31608,7 @@ fieldset {
   margin-bottom: 2.5rem;
   width: 100%; }
   .search-v26 .search-v26-query__wrapper:focus-within {
-    outline-color: #fff;
+    outline-color: #FFFFFF;
     outline-offset: .1875rem;
     outline-style: solid;
     outline-width: .125rem; }
@@ -31622,7 +31622,7 @@ fieldset {
     outline: initial; }
 
 .search-v26 .search-v26-query__icon__wrapper {
-  background-color: #fff;
+  background-color: #FFFFFF;
   padding: .3125rem 1rem .5rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -31652,13 +31652,62 @@ fieldset {
 .search-v26 .search-v26-submit {
   font-weight: 600;
   background-color: #d61726;
-  color: #fff;
+  color: #FFFFFF;
   padding: 1.5rem 3.5rem;
   -webkit-transition: background-color .6s;
   transition: background-color .6s;
   border: initial; }
   .search-v26 .search-v26-submit:hover {
     background-color: #a8121e; }
+  .search-v26 .search-v26-submit:focus {
+    outline-color: #FFFFFF;
+    outline-offset: .1875rem;
+    outline-style: solid;
+    outline-width: .125rem; }
+
+.search-v26 .search-v26-type__wrapper {
+  height: auto;
+  position: relative;
+  background-color: #FFFFFF;
+  padding-right: 2rem; }
+  .search-v26 .search-v26-type__wrapper:focus-within {
+    outline-color: #FFFFFF;
+    outline-offset: .1875rem;
+    outline-style: solid;
+    outline-width: .125rem; }
+
+.search-v26 .fa-angle-down {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background-color: #0c0c0e;
+  color: #FFFFFF;
+  border-radius: 100%;
+  padding: 0.5rem;
+  pointer-events: none;
+  min-width: 30px;
+  min-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.search-v26 #search-v26-type {
+  font-weight: 600;
+  padding: 1.5rem 3.5rem;
+  border: initial;
+  background-color: #FFFFFF;
+  color: #0c0c0e;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; }
+  .search-v26 #search-v26-type:focus {
+    outline: initial; }
 
 .search-v26 form {
   padding-left: 2rem;
