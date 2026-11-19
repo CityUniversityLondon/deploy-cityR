@@ -31660,13 +31660,6 @@ fieldset {
   .search-v26 .search-v26-submit:hover {
     background-color: #a8121e; }
 
-.search-v26 #search-v26-type {
-  font-weight: 600;
-  padding: 1.5rem 3.5rem;
-  border: 0.0625rem solid #e7e7e7;
-  background-color: #0c0c0e;
-  color: #FFFFFF; }
-
 .search-v26 form {
   padding-left: 2rem;
   padding-right: 2rem;

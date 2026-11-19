@@ -1,4 +1,3 @@
-
 var CITY = require('./main'),
     deferred = require('./deferred'),
     initJsFailureNotifier = require('./js-error-notifier'),
