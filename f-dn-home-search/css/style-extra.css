@@ -340,6 +340,7 @@
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  width: clamp(17rem, 20rem, 100%);
 }
 
 .search-v26 #search-v26-type:focus {
